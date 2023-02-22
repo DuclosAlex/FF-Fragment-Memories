@@ -1,6 +1,6 @@
 require('dotenv').config(); 
 const express = require('express');
-const { personnageBaseRouter, usersRouter } = require('./app/router');
+const { personnageBaseRouter, usersRouter } = require('./app/routeur')
 const cors = require('cors');
 const multer = require('multer');
 

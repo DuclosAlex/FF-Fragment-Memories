@@ -1,4 +1,4 @@
-const personnageBaseRouter = require('./personnageBaseRouteur');
-const usersRouter = require('./usersRouteur');
+const personnageBaseRouter = require('./personnageBase');
+const usersRouter = require('./users');
 
 module.exports = { personnageBaseRouter, usersRouter};
